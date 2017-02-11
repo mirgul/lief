@@ -1,5 +1,46 @@
-<!Doctype html>
-<html>
-    <head>
-    
-    
+<main>
+  <header id="app-header" class="app-header">
+
+    <div class="background-container">
+      <div id="background-back" class="background"></div>
+      <div id="background-front" class="background"></div>
+    </div>
+
+    <div class="header-content">
+      <div id="small-toolbar" class="app-toolbar">
+
+        <div class="icon-button">
+          <div class="icon">
+            <i class="material-icons">menu</i>            
+          </div>
+        </div>
+
+        <div id="small-title" class="small-title">Some Title</div>     
+        <div class="icon-button">
+          <div class="icon">            
+            <i class="material-icons">search</i>
+          </div>
+        </div>
+        
+        <div class="icon-button">
+          <div class="icon">            
+            <i class="material-icons">more_vert</i>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="large-toolbar" class="app-toolbar tall">
+        <div id="large-title" class="large-title">Some Title</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="card">
+
+    <div class="card-title">Cu mei vide viris gloriatur, at populo eripuit sit</div>
+
+    <p>good luck out there</p>
+
+  </div>
+</main>
