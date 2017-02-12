@@ -1,0 +1,95 @@
+#large-margin {
+	margin-top: 192px;
+	margin-bottom: 192px;
+}
+#lief {
+	background-image: url('http://gamingtrend.com/wp-content/screenshots/the-amazing-spider-man/asm-spider-man-web-rushing-across-the-streets.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#mytheme .mytheme-row {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#mytheme .mytheme-navy {
+	background-color: #00366c;
+}
+
+#mytheme .mytheme-pink {
+	background-color: #f8d8db;
+}
+
+#mytheme .mytheme-pink.menu * {
+	color: black;
+}
+
+.fullpage {
+	height: 100%;
+	/*to center content horizontally and vertically*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fullpage-logo {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.fullpage-logo-img {
+	width: 100%;
+}
+
+.fullpage-img {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.fullpage-content {
+	width: 80%;
+}
+
+.fullpage-content h2 {
+	font-size: 60px;
+	color: white;
+}
+
+.fullpage-content h3 {
+	font-size: 26px;
+	/*color: white;*/
+	text-align: center;
+}
+
+.fullpage-content h4 {
+	/*color: white;*/
+	text-align: center;
+}
+
+.theme-img1 {
+	margin-top: 60px;
+	background-image: url(http://www.bstone.com/picture/nation_stone/bs/red-spider-marble-585-1b.jpg);
+}
+
+.theme-img2 {
+	background-image: url(https://s-media-cache-ak0.pinimg.com/474x/7f/7a/95/7f7a958a8c5b75d80561d921b7a9b9d5.jpg);
+}
+
+.sidenav {
+	position: fixed;
+	top: 30%;
+	right: 15px;
+	width: 20px;
+	opacity: 0;
+	
+
+	/*to fix disappearing problem*/
+	z-index: 999999;
+}
+
+#mytheme .sidenav-link {
+	margin-bottom: 15px;
+	display: block;
+}

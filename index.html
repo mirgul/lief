@@ -6,9 +6,9 @@
 		<link rel="stylesheet" href="styles/main.css">
 	</head>
 	<body id="mytheme">
-		<div class="ui top fixed menu">
+		<div class="ui top fixed menu inverted mytheme-pink">
 		  <div class="item">
-		    <img src="https://scontent.xx.fbcdn.net/v/t1.0-9/16681648_992448397523167_8594112546060728656_n.jpg?oh=c55967e2d2374d3f8a00f6d5e1e92a6e&oe=59431756"& nbsp;&nbsp> Lief
+		    <img src="https://scontent.xx.fbcdn.net/v/t1.0-9/16681648_992448397523167_8594112546060728656_n.jpg?oh=c55967e2d2374d3f8a00f6d5e1e92a6e&amp;oe=59431756"> &nbsp;&nbsp; Lief
 		  </div>
 		    <a class="item">About Us </a>
 		</div> <!-- ui top fixed menu -->
@@ -16,20 +16,21 @@
 			
 			<a href="#img1" class="circular ui icon button inverted sidenav-link"></a>
 			<a href="#img2" class="circular ui icon button inverted sidenav-link"></a>
-			<a href="#img3" class="circular ui icon button inverted sidenav-link"></a>
 		</div>
 		<div id="img1" class="fullpage fullpage-img theme-img1">
 			<div class="fullpage-content">
-				<h2>Lief Calligraphy 3</h2>
+				<div class="fullpage-logo">
+					<img class="fullpage-logo-img" src="assets/logo.png">
+				</div>
 				<h3>“Kind words do not cost much. Yet they accomplish much."</h3>
-				<h4 >- Blaise Pascal</h4>
+				<h4>- Blaise Pascal</h4>
 			</div>
 		</div>
 		<div id="img2" class="fullpage fullpage-img theme-img2">
 			<div class="fullpage-content"></div>
 			</div>
 		</div>
-		<div id="img3" class="fullpage fullpage-img theme-img3">
+		<!-- <div id="img3" class="fullpage fullpage-img theme-img3">
 			<div class="fullpage-content js-slideshow slick-initialized slick-slider">
 			  <div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 5965px; transform: translate3d(-3579px, 0px, 0px);" role="listbox"><div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 1193px;" tabindex="-1">
 			  	<h2>Lief Calligrphy1</h2>
@@ -45,30 +46,19 @@
 			  
 			  
 			</div>
-		</div>
+		</div> -->
 
 		<!-- column content -->
-		<div class="ui two column grid centered mytheme-row-gray">
+		<div class="ui two column grid centered mytheme-row mytheme-navy">
 			<div class="four column centered row">
 				<div class="column">
-					<div class="ui segment grey inverted">
-					  <h2>Hello, Wrold!</h2>
-					  <p>THis is a paragraph LOL</p>
-					  <button class="fluid ui button">order</button>
+					<div class="ui segment mytheme-navy inverted">
+					  <button class="fluid ui button mytheme-pink">order</button>
 					</div>
 				</div>
 				<div class="column">
-					<div class="ui segment grey inverted">
-					  <h2>Hello, Wrold!</h2>
-					  <p>THis is a paragraph LOL</p>
-					  <button class="fluid ui button">customize</button>
-					</div>
-				</div>
-				<div class="column">
-					<div class="ui segment grey inverted">
-					  <h2>Hello, Wrold!</h2>
-					  <p>THis is a paragraph LOL</p>
-					  <button class="fluid ui button">subscribe</button>
+					<div class="ui segment mytheme-navy inverted">
+					  <button class="fluid ui button mytheme-pink">subscribe</button>
 					</div>
 				</div>
 			</div><!-- four column centered row -->
@@ -83,17 +73,17 @@
 			<div class="ui center aligned container">
 				<div class="ui stackable inverted divided grid">
 					<div class="three wide column">
-						<h4 class="ui inverted header">Cards</h4>
+						<h4 class="ui inverted header">
+							<a href="http://www.google.com" target="_blank">Cards</a>
+						</h4>
 						<div class="ui inverted link list">
 							<a href="#" class="item">Link One</a>
-							<a href="#" class="item">Link Two</a>
 						</div>
 					</div>
 					<div class="three wide column">
 						<h4 class="ui inverted header">Room Art</h4>
 						<div class="ui inverted link list">
 							<a href="#" class="item">Link One</a>
-							<a href="#" class="item">Link Two</a>
 
 						</div>
 					</div>
@@ -101,13 +91,8 @@
 						<h4 class="ui inverted header"> Desk Reminders</h4>
 						<div class="ui inverted link list">
 							<a href="#" class="item">Link One</a>
-							<a href="#" class="item">Link Two</a>
-							<a href="#" class="item">Link Three</a>
-							<a href="#" class="item">Link Four</a>
+
 						</div>
-					</div>
-					<div class="seven wide column">
-						<h4 class="ui inverted header">MORE STUFF HERE</h4>
 					</div>
 				</div>
 			</div><!-- ui center aligned container -->
@@ -147,4 +132,4 @@
   				arrows: false,
 			  });
 		</script>
-</html>
+	</body>
